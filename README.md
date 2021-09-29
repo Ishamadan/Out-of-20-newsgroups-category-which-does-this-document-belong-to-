@@ -1,7 +1,7 @@
 # Out of 20 newsgroups category which does this document belong to ?
 Context - This is a text classification problem where we have 20 newsgroup document collection (approx 20k)
 Approach- 
-1. Clean and Collect all the non-stop words having length ? 3 - 
+1. Clean and Collect all the non-stop words having length >= 3 - 
    1.1 Go through all 20k documents
    1.2 Within a doc, go throgh all the words
    1.3 Ignore a word if it is a stop word or length <=3
